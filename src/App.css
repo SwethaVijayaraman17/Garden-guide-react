@@ -1,0 +1,57 @@
+body{
+  font-family: Sans-serif;
+}
+#listLayout{
+  width: 60%;
+  border: 2px solid rgba(9, 117, 90, 0.815);
+  margin: 10px auto;
+}
+#plantsList{
+  width: 85%;
+  margin: auto;
+}
+h1{
+  text-align: center;
+  color: rgb(218, 73, 54);
+}
+#plantsList > div{
+  /* border: 1px solid red; */
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.219);
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+#plantsList > div > img{
+  width: 20%;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+#searchWrap{
+  padding: 30px 15px;
+}
+button{
+  background-color: rgba(9, 117, 90, 0.815);
+  color: white;
+  padding: 8px 20px;
+  font-size: 1.2vw;
+  border: none;
+  cursor: pointer;
+}
+select{
+  height: 40px;
+  border-radius: 5px;
+  width: 100%;
+  margin-right: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.479);
+  padding: 5px;
+  font-size: 1.1vw;
+}
+#guidance{
+  border: 2px solid rgba(9, 117, 90, 0.815);
+  margin: 10px 30px;
+  padding: 20px;
+}
+#guidance > img{
+  width: 30%;
+}
